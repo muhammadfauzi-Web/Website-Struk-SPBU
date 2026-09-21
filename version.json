@@ -1,0 +1,14 @@
+{
+  "version": "1.0.3",
+  "version_code": 103,
+  "tanggal_rilis": "2026-09-21",
+  "wajib_update": false,
+  "url_download": "https://drive.google.com/drive/folders/GANTI_DENGAN_ID_FOLDER_ANDA",
+  "url_update": "https://drive.google.com/drive/folders/GANTI_DENGAN_ID_FOLDER_ANDA",
+  "ukuran": "6.4 MB",
+  "catatan": [
+    "Identitas SPBU (kode, nama, alamat) dipindah ke menu tiga garis.",
+    "Nama operator dan nomor plat otomatis huruf kapital.",
+    "Pengecekan versi otomatis dari situs resmi."
+  ]
+}
