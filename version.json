@@ -1,14 +1,14 @@
 {
-  "version": "1.0.3",
-  "version_code": 103,
+  "version": "1.1.5",
+  "version_code": 115,
   "tanggal_rilis": "2026-09-21",
   "wajib_update": false,
-  "url_download": "https://drive.google.com/drive/folders/GANTI_DENGAN_ID_FOLDER_ANDA",
-  "url_update": "https://drive.google.com/drive/folders/GANTI_DENGAN_ID_FOLDER_ANDA",
-  "ukuran": "6.4 MB",
+  "url_download": "https://www.mediafire.com/file/95z010uepaagysj/STRUK-SPBU-V1.1.4.apk/file",
+  "url_update": "https://www.mediafire.com/file/95z010uepaagysj/STRUK-SPBU-V1.1.4.apk/file",
+  "ukuran": "3,99 MB",
   "catatan": [
-    "Identitas SPBU (kode, nama, alamat) dipindah ke menu tiga garis.",
+    "Bisa merubah Identitas SPBU (kode, nama, alamat) di dalam menu garis 3.",
     "Nama operator dan nomor plat otomatis huruf kapital.",
-    "Pengecekan versi otomatis dari situs resmi."
+    "Pengecekan versi otomatis dari situs resmi.","Bisa membuat struk tanpa harus memasukkan no plat, bisa untuk struk motor"
   ]
 }
