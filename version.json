@@ -9,6 +9,5 @@
   "catatan": [
     "Bisa merubah Identitas SPBU (kode, nama, alamat) di dalam menu garis 3.",
     "Nama operator dan nomor plat otomatis huruf kapital.",
-    "Pengecekan versi otomatis dari situs resmi.","Bisa membuat struk tanpa harus memasukkan no plat, bisa untuk struk motor"
-  ]
+    "Pengecekan versi otomatis dari situs resmi.","Bisa membuat struk tanpa harus memasukkan no plat, bisa untuk struk motor","Merubah harga subsidi","untuk update selanjutnya nanti muncul sendiri di aplikasi tanpa harus menunggu info update"  ]
 }
