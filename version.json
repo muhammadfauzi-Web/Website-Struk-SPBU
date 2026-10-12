@@ -1,13 +1,20 @@
 {
-  "version": "1.1.4",
-  "version_code": 114,
-  "tanggal_rilis": "2026-09-21",
+  "version": "1.2.3",
+  "version_code": 123,
+  "tanggal_rilis": "2026-10-13",
   "wajib_update": false,
-  "url_download": "https://www.mediafire.com/file/95z010uepaagysj/STRUK-SPBU-V1.1.4.apk/file",
+  "url_download": "https://www.mediafire.com/file/kvs7kx8lmzxabws/STRUK-SPBU-V1.2.3.apk/file",
   "url_update": "https://muhammadfauzi-web.github.io/Website-Struk-SPBU/",
-  "ukuran": "3,99 MB",
+  "ukuran": "5.73 MB",
   "catatan": [
-    "Bisa merubah Identitas SPBU (kode, nama, alamat) di dalam menu garis 3.",
-    "Nama operator dan nomor plat otomatis huruf kapital.",
-    "Pengecekan versi otomatis dari situs resmi.","Bisa membuat struk tanpa harus memasukkan no plat, bisa untuk struk motor","Merubah harga subsidi","untuk update selanjutnya nanti muncul sendiri di aplikasi tanpa harus menunggu info update"  ]
+    "Tampilan aplikasi diperbarui dengan tema biru premium, komponen 3D, dan bayangan yang lebih halus.",
+    "Splash screen diperbarui dengan logo biru premium dengan code SPBU dan gambar Pertamina dengan efek blur yang memenuhi layar.",
+    "Formulir transaksi ditata ulang dengan label dan ikon input yang lebih jelas.",
+    "Bagian data kendaraan dipisahkan agar pengisian nomor plat dan odometer lebih rapi.",
+    "Tulisan Pompa 1-6 diubah menjadi Pertalite A&B, Pertamax A&B, dan Pertalite Motor A&B agar mempermudah melakukan input no Pompa.",
+    "Fungsi hubungkan Bluetooth sudah bisa melakukan pairings di dalam Aplikasi tanpa harus menghubungkannya manual pada pengaturan Bluetooth di Android.",
+    "Tombol koneksi printer Bluetooth serta tombol navigasi dan cetak dibuat lebih konsisten.",
+    "Tata letak disesuaikan agar penggunaan di layar ponsel lebih nyaman.",
+    "Perubahan harga Subsidi menjadi Rp.18,101"
+  ]
 }

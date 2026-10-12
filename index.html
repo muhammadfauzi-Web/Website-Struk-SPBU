@@ -9,14 +9,14 @@
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=PT+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=PT+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header class="topbar">
   <div class="topbar-inner">
-    <svg class="topbar-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 14V4a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v16"/><path d="M7 15h8"/><path d="M17 8h5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-5"/><path d="M3 20h18"/><path d="M7 10h8"/></svg>
-    <span class="topbar-name">Struk SPBU</span>
+    <img class="topbar-logo" src="logo.png" alt="" width="42" height="42">
+    <span class="topbar-name">Website Struk SPBU</span>
     <a class="topbar-link" href="#unduh">Unduh APK</a>
   </div>
 </header>
@@ -27,19 +27,30 @@
     <div class="hero-inner">
       <div class="hero-copy">
         <p class="hero-kicker">Aplikasi Kasir & Cetak Struk Thermal</p>
-        <h1 class="hero-title">SISTEM<br>STRUK SPBU</h1>
+        <h1 class="hero-title">SISTEM<br>STRUK SPBU<br>34-41103</h1>
         <p class="hero-lead">
           Hitung volume BBM, porsi subsidi, dan kembalian dalam satu layar,
           lalu cetak notanya langsung ke printer Bluetooth di pulau pompa Anda.
         </p>
+        <p class="hero-lead">
+          Berikut fitur-fitur UPDATE terbaru saat ini :
+        </p>
 
+        <!-- Wadah catatan rilis yang sudah disesuaikan -->
+        <div id="info-catatan-container">
+            <p class="stempel-note" id="info-catatan">Memeriksa pembaruan rilis sistem...</p>
+        </div>
+        
+
+        <!-- Tombol dan Status dipindahkan ke bawah sini -->
         <div class="hero-actions">
-          <a id="btn-unduh" class="btn-unduh" href="#" target="_blank" rel="noopener">
+          <a id="btn-unduh" class="btn-unduh is-disabled" href="#unduh" aria-disabled="true" title="Tautan unduhan belum dikonfigurasi">
             <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
             Unduh Aplikasi
           </a>
-          <a class="btn-lihat" href="#panduan">Cara Memasang ➔</a>
+          <a class="btn-lihat" href="#panduan">Cara Memasang <span aria-hidden="true">➔</span></a>
         </div>
+        <p id="download-status" class="download-status" role="status">Tautan APK akan tersedia setelah alamat unduhan versi terbaru dikonfigurasi.</p>
 
         <!-- Stempel versi -->
         <dl class="stempel">
@@ -48,11 +59,10 @@
           <div><dt>Ukuran File</dt><dd id="info-ukuran">—</dd></div>
         </dl>
         
-        <!-- Wadah catatan rilis yang sudah disesuaikan -->
-        <div id="info-catatan-container">
-            <p class="stempel-note" id="info-catatan">Memeriksa pembaruan rilis sistem...</p>
-        </div>
         
+      </div>
+      <div class="hero-visual" aria-label="Ikon aplikasi Struk SPBU">
+        <img class="hero-app-icon" src="logo.png" alt="Ikon Struk SPBU Pertamina" width="512" height="512">
       </div>
     </div>
   </section>
@@ -113,7 +123,8 @@
         </li>
         <li>
           <h3>Hubungkan Printer</h3>
-          <p>Setelah terinstal, buka aplikasi. Nyalakan Bluetooth perangkat Anda, pasangkan (<em>pairing</em>) dengan printer thermal, lalu tekan tombol <strong>🔌 Hubungkan Printer</strong> di aplikasi.</p>
+          <p>Setelah terinstal, buka aplikasi. Nyalakan Bluetooth perangkat Anda, pasangkan (<em>pairing</em>) dengan printer thermal, lalu tekan tombol <strong><svg viewBox="0 0 24 24" height="20" width="20"><path fill="#315db8" d="M11.2501 21.65V13.8l-4.85 4.85 -1.05 -1.05 5.6 -5.6 -5.6 -5.6 1.05 -1.05 4.85 4.85V2.349975h0.75L17.3501 7.7l-4.3 4.3 4.3 4.3 -5.35 5.35h-0.75Zm1.5 -11.45 2.5 -2.5 -2.5 -2.45v4.95Zm0 8.55 2.5 -2.45 -2.5 -2.5v4.95Z"></path>
+          </svg>Hubungkan Printer</strong> di aplikasi.</p>
         </li>
       </ol>
       <div class="panduan-catatan">
@@ -128,7 +139,7 @@
 
 <footer class="kaki">
   <div class="kaki-inner">
-    <p class="kaki-brand">Struk SPBU POS</p>
+    <p class="kaki-brand">STRUK SPBU 34-41103</p>
     <p class="kaki-dev">Dikembangkan oleh <strong>Muhammad Fauzi</strong></p>
     <a href="mailto:muhammadfauziarrasyid@gmail.com" class="kaki-kontak">muhammadfauziarrasyid@gmail.com</a>
     <p class="kaki-hak">© 2026 FAUZI_PROJECT. Dilarang menyalin, memodifikasi, atau mendistribusikan ulang kode sumber tanpa izin tertulis.</p>
@@ -136,36 +147,57 @@
 </footer>
 
 <script>
-/* Semua informasi rilis dibaca dari version.json */
+/* Informasi rilis dibaca dari version.json agar versi situs dan aplikasi tetap sinkron. */
 (function () {
   var urlVersi = 'version.json?t=' + Date.now();
+  var tombolAwal = document.getElementById('btn-unduh');
+  if (tombolAwal) {
+    tombolAwal.addEventListener('click', function (event) {
+      if (tombolAwal.getAttribute('aria-disabled') === 'true') event.preventDefault();
+    });
+  }
 
   fetch(urlVersi, { cache: 'no-store' })
-    .then(function (r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
+    .then(function (response) {
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      return response.json();
     })
     .then(function (data) {
-      setTeks('info-versi', 'v' + data.version);
+      setTeks('info-versi', data.version ? 'v' + data.version : '—');
       setTeks('info-tanggal', formatTanggal(data.tanggal_rilis));
-      setTeks('info-ukuran', data.ukuran || '—');
-
-      // PERUBAHAN LOGIKA CATATAN RILIS MENJADI LIST KE BAWAH
-      var containerCatatan = document.getElementById('info-catatan-container');
-      if (containerCatatan) {
-        if (Array.isArray(data.catatan) && data.catatan.length > 0) {
-          containerCatatan.innerHTML = '<ul class="catatan-list"><li>' + data.catatan.join('</li><li>') + '</li></ul>';
-        } else {
-          containerCatatan.innerHTML = '<p class="stempel-note">' + (data.catatan || 'Pemeliharaan sistem dan optimasi peforma.') + '</p>';
-        }
-      }
+      setTeks('info-ukuran', data.ukuran || 'Belum dikonfirmasi');
+      renderCatatan(data.catatan);
 
       var tombol = document.getElementById('btn-unduh');
-      if (tombol && data.url_download) tombol.href = data.url_download;
+      var statusUnduh = document.getElementById('download-status');
+      if (tombol && typeof data.url_download === 'string' && /^https?:\/\//i.test(data.url_download.trim())) {
+        tombol.href = data.url_download.trim();
+        tombol.target = '_blank';
+        tombol.rel = 'noopener noreferrer';
+        tombol.classList.remove('is-disabled');
+        tombol.removeAttribute('aria-disabled');
+        tombol.removeAttribute('title');
+        if (statusUnduh) setTeks('download-status', 'Tautan resmi untuk mengunduh APK versi terbaru.');
+      } else if (tombol) {
+        tombol.href = '#unduh';
+        tombol.removeAttribute('target');
+        tombol.classList.add('is-disabled');
+        tombol.setAttribute('aria-disabled', 'true');
+        tombol.title = 'Tautan unduhan belum dikonfigurasi';
+        if (statusUnduh) setTeks('download-status', 'Tautan APK versi terbaru belum dikonfigurasi.');
+      }
     })
     .catch(function () {
-      setTeks('info-catatan', 'Informasi rilis gagal dimuat. Pastikan Anda terhubung ke internet.');
+      setTeks('info-catatan', 'Informasi rilis tidak dapat dimuat. Periksa koneksi internet Anda.');
       setTeks('info-versi', 'Offline');
+      setTeks('info-ukuran', '—');
+      var tombol = document.getElementById('btn-unduh');
+      if (tombol) {
+        tombol.href = '#unduh';
+        tombol.classList.add('is-disabled');
+        tombol.setAttribute('aria-disabled', 'true');
+      }
+      setTeks('download-status', 'Informasi unduhan belum dapat diverifikasi.');
     });
 
   function setTeks(id, teks) {
@@ -173,12 +205,36 @@
     if (el) el.textContent = teks;
   }
 
+  function renderCatatan(catatan) {
+    var container = document.getElementById('info-catatan-container');
+    if (!container) return;
+    container.replaceChildren();
+    if (Array.isArray(catatan) && catatan.length) {
+      var list = document.createElement('ul');
+      list.className = 'catatan-list';
+      catatan.forEach(function (item) {
+        var li = document.createElement('li');
+        li.textContent = String(item);
+        list.appendChild(li);
+      });
+      container.appendChild(list);
+    } else {
+      var note = document.createElement('p');
+      note.className = 'stempel-note';
+      note.textContent = typeof catatan === 'string' && catatan ? catatan : 'Pembaruan aplikasi Struk SPBU.';
+      container.appendChild(note);
+    }
+  }
+
   function formatTanggal(iso) {
-    if (!iso) return '—';
+    if (!iso || typeof iso !== 'string') return '—';
     var bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
     var p = iso.split('-');
     if (p.length !== 3) return iso;
-    return parseInt(p[2], 10) + ' ' + bulan[parseInt(p[1], 10) - 1] + ' ' + p[0];
+    var month = parseInt(p[1], 10);
+    var day = parseInt(p[2], 10);
+    if (month < 1 || month > 12 || day < 1 || day > 31) return iso;
+    return day + ' ' + bulan[month - 1] + ' ' + p[0];
   }
 })();
 </script>
