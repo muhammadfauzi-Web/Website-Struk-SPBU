@@ -1,20 +1,21 @@
 {
-  "version": "1.2.3",
-  "version_code": 123,
-  "tanggal_rilis": "2026-10-13",
+  "version": "1.3.5",
+  "version_code": 135,
+  "tanggal_rilis": "2026-10-20",
   "wajib_update": false,
-  "url_download": "https://www.mediafire.com/file/kvs7kx8lmzxabws/STRUK-SPBU-V1.2.3.apk/file",
+  "url_download": "https://www.mediafire.com/file/3aztaavvat5n8cm/STRUK-SPBU-V1.3.5.apk/file",
   "url_update": "https://muhammadfauzi-web.github.io/Website-Struk-SPBU/",
-  "ukuran": "5.73 MB",
+  "ukuran": "3.22 MB",
   "catatan": [
-    "Tampilan aplikasi diperbarui dengan tema biru premium, komponen 3D, dan bayangan yang lebih halus.",
-    "Splash screen diperbarui dengan logo biru premium dengan code SPBU dan gambar Pertamina dengan efek blur yang memenuhi layar.",
-    "Formulir transaksi ditata ulang dengan label dan ikon input yang lebih jelas.",
-    "Bagian data kendaraan dipisahkan agar pengisian nomor plat dan odometer lebih rapi.",
-    "Tulisan Pompa 1-6 diubah menjadi Pertalite A&B, Pertamax A&B, dan Pertalite Motor A&B agar mempermudah melakukan input no Pompa.",
-    "Fungsi hubungkan Bluetooth sudah bisa melakukan pairings di dalam Aplikasi tanpa harus menghubungkannya manual pada pengaturan Bluetooth di Android.",
-    "Tombol koneksi printer Bluetooth serta tombol navigasi dan cetak dibuat lebih konsisten.",
-    "Tata letak disesuaikan agar penggunaan di layar ponsel lebih nyaman.",
-    "Perubahan harga Subsidi menjadi Rp.18,101"
+    "Ditambahkan halaman login baru yang hanya meminta nama operator; tidak ada kolom password pada halaman login.",
+    "Data nama operator, ID perangkat, nama perangkat, dan platform dikirim ke backend untuk memproses login dan autentikasi akses.",
+    "Ditambahkan autentikasi Firebase menggunakan custom token serta persistensi sesi lokal agar sesi login dapat dipulihkan saat aplikasi dibuka kembali.",
+    "Status perangkat diperiksa langsung dari server secara real-time agar perubahan status akses dapat segera ditangani.",
+    "Ditambahkan plugin Cordova Device serta Firebase Authentication dan Firestore SDK untuk mendukung identifikasi akses perangkat.",
+    "Melakukan penyempurnaan fungsi code pada bagian data cetak struk.",
+    "Tampilan halaman login diperbarui dengan tema biru, logo aplikasi, kartu dengan bayangan, serta pesan status yang lebih jelas.",
+    "Judul aplikasi diperbarui menjadi STRUK SPBU 34-41103.",
+    "Penanganan nilai nol dan perataan angka pada beberapa bagian harga serta total transaksi diperbaiki.",
+    "Format tampilan angka kembalian pada struk disesuaikan; lakukan pengujian transaksi sebelum distribusi untuk memastikan hasilnya sesuai kebutuhan."
   ]
 }
