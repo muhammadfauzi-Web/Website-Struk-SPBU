@@ -1,21 +1,14 @@
 {
-  "version": "1.3.5",
-  "version_code": 135,
+  "version": "1.3.6",
+  "version_code": 136,
   "tanggal_rilis": "2026-10-20",
   "wajib_update": false,
-  "url_download": "https://www.mediafire.com/file/3aztaavvat5n8cm/STRUK-SPBU-V1.3.5.apk/file",
-  "url_update": "https://muhammadfauzi-web.github.io/Website-Struk-SPBU/",
+  "url_download": " ",
+  "url_update": "https://strukspbu-web.fauziproject.my.id/",
   "ukuran": "3.22 MB",
   "catatan": [
-    "Ditambahkan halaman login baru yang hanya meminta nama operator; tidak ada kolom password pada halaman login.",
-    "Data nama operator, ID perangkat, nama perangkat, dan platform dikirim ke backend untuk memproses login dan autentikasi akses.",
-    "Ditambahkan autentikasi Firebase menggunakan custom token serta persistensi sesi lokal agar sesi login dapat dipulihkan saat aplikasi dibuka kembali.",
-    "Status perangkat diperiksa langsung dari server secara real-time agar perubahan status akses dapat segera ditangani.",
-    "Ditambahkan plugin Cordova Device serta Firebase Authentication dan Firestore SDK untuk mendukung identifikasi akses perangkat.",
-    "Melakukan penyempurnaan fungsi code pada bagian data cetak struk.",
-    "Tampilan halaman login diperbarui dengan tema biru, logo aplikasi, kartu dengan bayangan, serta pesan status yang lebih jelas.",
-    "Judul aplikasi diperbarui menjadi STRUK SPBU 34-41103.",
-    "Penanganan nilai nol dan perataan angka pada beberapa bagian harga serta total transaksi diperbaiki.",
-    "Format tampilan angka kembalian pada struk disesuaikan; lakukan pengujian transaksi sebelum distribusi untuk memastikan hasilnya sesuai kebutuhan."
+    "Pembaruan wajib!",
+    "Server aplikasi telah pindah ke sistem dan domain baru.",
+    "Harap segera unduh versi terbaru ini agar aplikasi tetap bisa digunakan."
   ]
 }
